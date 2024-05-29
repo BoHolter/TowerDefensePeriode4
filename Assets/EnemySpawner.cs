@@ -7,10 +7,10 @@ public class EnemySpawner : MonoBehaviour
 
     [SerializeField]
     private GameObject Enemy1Prefab;
-    private float Enemy1Interval = 0.5f;
+    private float Enemy1Interval = 3f;
     [SerializeField]
     private GameObject Enemy2Prefab;
-    private float Enemy2Interval = 10.0f;
+    private float Enemy2Interval = 4f;
     // Start is called before the first frame update
     void Start()
     {
