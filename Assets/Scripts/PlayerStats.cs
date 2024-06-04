@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     // Start is called before the first frame update
-    
-    
-        public static int Money = 1000;
-        public int StartMoney;
+
+
+    public static int Money;
+    public int startMoney = 1000;
         void start()
         {
-            Money = StartMoney;
+            Money = startMoney;
         }
         // Update is called once per frame
         void Update()
