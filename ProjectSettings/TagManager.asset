@@ -8,6 +8,7 @@ TagManager:
   - CantPlace
   - Waypoints
   - Spawner
+  - Enemy
   layers:
   - Default
   - TransparentFX
